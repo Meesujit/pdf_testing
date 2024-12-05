@@ -1,13 +1,19 @@
 import React from 'react'
 
-import DemoPdf from './components/DemoPdf'
-import Pdf from './components/pdf'
+
+// import PdfWithTags from './components/PdfWithTags'
+import PdfFormHandler from './components/PdfFormHandler'
 
 const App = () => {
   return (
  
-    // <DemoPdf />
-    <Pdf/>
+    <>
+    {/*<DemoPdf /> */} 
+    {/* <PdfWithTags /> */}
+
+    {/* working pdf form  */}
+    <PdfFormHandler />
+    </>
     
   )
 }
